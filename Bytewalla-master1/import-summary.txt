@@ -1,0 +1,57 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* DynamicNeighbor
+* README.txt
+* default.properties
+* javadoc.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\applib\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\applib\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\applib\types\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\applib\types\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\apps\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\apps\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\event\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\event\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\exception\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\exception\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\bundling\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\common\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\common\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\config\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\config\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\conv_layers\README => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\conv_layers\README
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\discovery\README => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\discovery\README
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\naming\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\naming\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\naming\README.txt => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\naming\README.txt
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\reg\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\reg\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\routing\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\routing\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\routing\README.txt => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\routing\README.txt
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\storage\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\servlib\storage\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\energy\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\energy\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\thread\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\thread\package.html
+* src\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\util\package.html => app\src\main\resources\se\kth\ssvl\tslab\bytewalla\androiddtn\systemlib\util\package.html
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Name:"
+	android:textSize="30dp"
+	android:id="@+id/contact_add_textView_name"/>
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/contact_add_name"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="EID:"
+		android:textSize="30dp"
+		android:id="@+id/contact_add_textView_eid"/>
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/contact_add_eid"/>
+
+	<Button
+		android:id="@+id/add_contact_button_save"
+		android:layout_marginTop="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Save"/>
+
+</LinearLayout>
+<!-- From: file:/Users/altamisharif/Desktop/Bytewalla-master1/app/src/main/res/layout/add_contact.xml -->

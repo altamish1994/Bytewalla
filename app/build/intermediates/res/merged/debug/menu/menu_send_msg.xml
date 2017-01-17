@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.maxtechx.bluetooth.SendMsg">
+
+</menu>
+<!-- From: file:/Users/altamisharif/Desktop/fyp1-final/Bytewalla-master1%202-final/app/src/main/res/menu/menu_send_msg.xml -->

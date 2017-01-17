@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".BluetoothActivity">
+    <item android:id="@+id/action_settings" android:title="Disc"
+        android:orderInCategory="100" android:showAsAction="always" />
+    <item android:id="@+id/accept" android:title="A"
+    android:orderInCategory="100" android:showAsAction="always" />
+</menu>
+<!-- From: file:/Users/altamisharif/Desktop/fyp1-final/Bytewalla-master1%202-final/app/src/main/res/menu/menu_main.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/altamisharif/Desktop/Bytewalla-master1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="DTNAPITempFilePrefix">api_tmp</string>
+    <string name="DTNCleanUpInitialize">false</string>
+    <string name="DTNConfigFilePath">dtn.config.xml</string>
+    <string name="DTNEnableProactiveFragmentation">false</string>
+    <string name="DTNFragmentationMTU">5000</string>
+    <string name="DTNManagerShowDebugPanel">true</string>
+    <string name="DTNTestDataLogging_ONSDCard">false</string>
+    <string name="DTNTestDataPrefix">dtn_test_data</string>
+</resources>

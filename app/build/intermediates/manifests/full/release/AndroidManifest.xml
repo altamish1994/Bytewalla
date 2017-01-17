@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.kth.ssvl.tslab.bytewalla.androiddtn"
+    android:versionCode="1"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/launcher"
+        android:label="Bytewalla DTN v 3.0" >
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.DTNManager"
+            android:label="Bytewalla" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.DTNConfigEditor"
+            android:label="DTNConfigEditor" />
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.AddContacts"
+            android:label="Add Contacts" />
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNMessage"
+            android:label="Messages" />
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNMessageView"
+            android:label="MessageView" />
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNSend"
+            android:label="DTNSend" >
+        </activity>
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNReceive"
+            android:label="DTNReceive" >
+        </activity>
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNDiscovery"
+            android:label="DTNDiscovery" >
+        </activity>
+        <activity
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.apps.DTNApps"
+            android:label="DTNApps" >
+        </activity>
+
+        <service
+            android:name="se.kth.ssvl.tslab.bytewalla.androiddtn.DTNService"
+            android:label="DTNService" />
+    </application>
+
+</manifest>
